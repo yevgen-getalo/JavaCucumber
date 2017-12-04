@@ -28,7 +28,7 @@ Feature: In this feature we're going to test allo.ua website
     Then close browser
 
   Scenario: Verify checkout
-    When type into search field require model "Sony Xperia XZ F8332 Dual Forest Blue"
+    When type into search field require model "Sony Xperia XZ1 G8342 Black"
     When click on the buy button
     Then check that cart page is opened
     Then close browser
